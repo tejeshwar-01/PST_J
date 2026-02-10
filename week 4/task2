@@ -1,0 +1,46 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int T = sc.nextInt();  
+        while (T-- > 0) {
+            String s = sc.next();
+            int n = s.length();
+
+        
+            int mid = n / 2;
+            String left, right;
+
+            if (n % 2 == 0) {
+                left = s.substring(0, mid);
+                right = s.substring(mid);
+            } else {
+                left = s.substring(0, mid);
+                right = s.substring(mid + 1);
+            }
+
+            
+            int[] freqLeft = new int[26];
+            int[] freqRight = new int[26];
+
+            for (char c : left.toCharArray()) {
+                freqLeft[c - 'a']++;
+            }
+
+            for (char c : right.toCharArray()) {
+                freqRight[c - 'a']++;
+            }
+
+            
+            if (Arrays.equals(freqLeft, freqRight)) {
+                System.out.println("YES");
+            } else {
+                System.out.println("NO");
+            }
+        }
+
+        sc.close();
+    }
+}
