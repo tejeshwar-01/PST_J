@@ -1,4 +1,4 @@
-Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer.
+/* Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer.
 
 The algorithm for myAtoi(string s) is as follows:
 
@@ -76,6 +76,7 @@ Output: 0
 Explanation:
 
 Reading stops at the first non-digit character 'w'.
+ */
 Program:
 class Solution {
     public int myAtoi(String s) {

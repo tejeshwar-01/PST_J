@@ -1,4 +1,4 @@
-You are given a string containing characters  and  only. Your task is to change it into a string such that there are no matching adjacent characters. To do this, you are allowed to delete zero or more characters in the string.
+/* You are given a string containing characters  and  only. Your task is to change it into a string such that there are no matching adjacent characters. To do this, you are allowed to delete zero or more characters in the string.
 
 Your task is to find the minimum number of required deletions.
 
@@ -23,7 +23,7 @@ The next  lines each contain a string  to analyze.
 
 Constraints
 
-Each string  will consist only of characters  and .
+Each string  will consist only of characters  and . */
 
 Program:
 

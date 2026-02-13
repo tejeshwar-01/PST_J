@@ -1,4 +1,4 @@
-Two children, Lily and Ron, want to share a chocolate bar. Each of the squares has an integer on it.
+/* Two children, Lily and Ron, want to share a chocolate bar. Each of the squares has an integer on it.
 
 Lily decides to share a contiguous segment of the bar selected such that:
 
@@ -76,7 +76,7 @@ Explanation 2
 Lily only wants to give Ron  square of chocolate with an integer value of . Because the only square of chocolate in the bar satisfies this constraint, we print  as our answer.
 
 
-Program:
+Program: */
 
 import java.io.*;
 import java.math.*;
